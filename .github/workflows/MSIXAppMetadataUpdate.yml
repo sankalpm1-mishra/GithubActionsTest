@@ -1,0 +1,17 @@
+name: MSIXAppMetadataUpdate
+on:   
+      workflow_dispatch:
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: microsoft/microsoft-store-apppublisher@v1.1
+    - run: msstore reconfigure --tenantId ${{ secrets.AZURE_AD_TENANT_ID }} --sellerId ${{ secrets.SELLER_ID }} --clientId ${{ secrets.AZURE_AD_APPLICATION_CLIENT_ID }} --clientSecret ${{ secrets.AZURE_AD_APPLICATION_SECRET }}
+    - name: Update Metadata and Publish
+      shell: pwsh
+      run: |
+          $metadata = Get-Content -Raw "${{ github.workspace }}/Apps/<productName>/msix_metadata.json"
+          msstore submission updateMetadata <productId> $metadata
+          msstore submission publish <productId>
+

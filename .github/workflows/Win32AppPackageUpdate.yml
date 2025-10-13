@@ -1,0 +1,17 @@
+name: Win32AppPackageUpdate
+on:   
+      workflow_dispatch:
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: microsoft/microsoft-store-apppublisher@v1.1
+    - run: msstore reconfigure --tenantId ${{ secrets.AZURE_AD_TENANT_ID }} --sellerId ${{ secrets.SELLER_ID }} --clientId ${{ secrets.AZURE_AD_APPLICATION_CLIENT_ID }} --clientSecret ${{ secrets.AZURE_AD_APPLICATION_SECRET }}
+    - name: Update draft submission
+      run: |-
+          $win32Packages = Get-Content -Raw "${{ github.workspace }}/Apps/<productName>/win32_packages.json"
+          msstore submission update <productId> $win32Packages
+    - name: Publish Submission
+      run: |-
+          msstore submission publish <productId>
