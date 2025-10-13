@@ -1,0 +1,90 @@
+{
+  "Properties": {
+    "IsPrivacyPolicyRequired": true,
+    "PrivacyPolicyUrl": "https://cdn.storeedgefd.dsx.mp.microsoft.com/wus2/privacy-policy-storage/88076690/0eea0e40-e7a3-4fe3-abb1-199ece696151/draftsubmission/privacy_policy_6fcc19cf-a62f-4ab9-bd7e-a9d9c490abc8.txt",
+    "WebSite": "http://supportinfo.com",
+    "SupportContactInfo": "http://supportinfo.com",
+    "CertificationNotes": "Test product",
+    "Category": "Education",
+    "SubCategory": "Language",
+    "ProductDeclarations": {
+      "DependsOnDriversOrNT": true,
+      "AccessibilitySupport": true,
+      "PenAndInkSupport": true
+    },
+    "IsSystemFeatureRequired": [
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "Touch"
+      },
+      {
+        "IsRequired": true,
+        "IsRecommended": true,
+        "HardwareItemType": "Keyboard"
+      },
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "Mouse"
+      },
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "Camera"
+      },
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "NFC_HCE"
+      },
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "NFC_Proximity"
+      },
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "Bluetooth_LE"
+      },
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "Telephony"
+      },
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "Microphone"
+      }
+    ],
+    "SystemRequirementDetails": [
+      {
+        "MinimumRequirement": "",
+        "RecommendedRequirement": "",
+        "HardwareItemType": "Memory"
+      },
+      {
+        "MinimumRequirement": "DX9",
+        "RecommendedRequirement": "DX10",
+        "HardwareItemType": "DirectX"
+      },
+      {
+        "MinimumRequirement": "",
+        "RecommendedRequirement": "",
+        "HardwareItemType": "Video_Memory"
+      },
+      {
+        "MinimumRequirement": "",
+        "RecommendedRequirement": "",
+        "HardwareItemType": "Processor"
+      },
+      {
+        "MinimumRequirement": "",
+        "RecommendedRequirement": "",
+        "HardwareItemType": "Graphics"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "Availability": {
+    "Markets": [
+      "US",
+      "CA",
+      "GB"
+    ],
+    "Discoverability": "DEEPLINK_ONLY",
+    "EnableInFutureMarkets": true,
+    "Pricing": "FREE",
+    "FreeTrial": "NO_FREE_TRIAL"
+  }
+}

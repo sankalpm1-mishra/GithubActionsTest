@@ -1,0 +1,142 @@
+{
+  "Id": "1152921505699848593",
+  "ApplicationCategory": "BooksAndReference_EReader",
+  "Pricing": {
+    "TrialPeriod": "ThirtyDays",
+    "MarketSpecificPricings": {
+      "LB": "Free",
+      "EH": "Free"
+    },
+    "PriceId": "Free",
+    "IsAdvancedPricingModel": true
+  },
+  "Visibility": "Public",
+  "TargetPublishMode": "Immediate",
+  "TargetPublishDate": "1601-01-01T00:00:00Z",
+  "Listings": {
+    "en-us": {
+      "BaseListing": {
+        "Keywords": [],
+        "Description": "MSIX - From API",
+        "Features": [],
+        "ReleaseNotes": "",
+        "Images": [
+          {
+            "FileName": "Screenshot1.png",
+            "FileStatus": "Uploaded",
+            "Id": "1152922700019982211",
+            "ImageType": "Screenshot"
+          },
+          {
+            "FileName": "Screenshot2.png",
+            "FileStatus": "Uploaded",
+            "Id": "1152922700019982125",
+            "ImageType": "Screenshot"
+          },
+          {
+            "FileName": "Screenshot3.png",
+            "FileStatus": "Uploaded",
+            "Id": "1152922700019982733",
+            "ImageType": "Screenshot"
+          },
+          {
+            "FileName": "Screenshot_CLI.png",
+            "FileStatus": "Uploaded",
+            "Id": "400167999",
+            "ImageType": "Screenshot"
+          },
+          {
+            "FileName": "zeeconvert-resizer.png",
+            "FileStatus": "Uploaded",
+            "Id": "1152922700019982126",
+            "ImageType": "Icon"
+          },
+          {
+            "FileName": "zeeconvert-resizer (1).png",
+            "FileStatus": "Uploaded",
+            "Id": "1152922700019982212",
+            "ImageType": "StoreLogo9x16"
+          }
+        ],
+        "RecommendedHardware": [],
+        "MinimumHardware": [],
+        "Title": "FitnessFuel",
+        "LicenseTerms": "From API",
+        "CopyrightAndTrademarkInfo": "From API",
+        "ShortDescription": null,
+        "ShortTitle": "From API",
+        "VoiceTitle": ""
+      },
+      "PlatformOverrides": {}
+    }
+  },
+  "HardwarePreferences": ["Touch"],
+  "AutomaticBackupEnabled": true,
+  "CanInstallOnRemovableMedia": true,
+  "IsGameDvrEnabled": false,
+  "GamingOptions": [
+    {
+      "Genres": [],
+      "IsLocalMultiplayer": false,
+      "IsLocalCooperative": false,
+      "IsOnlineMultiplayer": false,
+      "IsOnlineCooperative": false,
+      "IsBroadcastingPrivilegeGranted": true,
+      "IsCrossPlayEnabled": false,
+      "KinectDataForExternal": "Disabled"
+    }
+  ],
+  "HasExternalInAppProducts": false,
+  "MeetAccessibilityGuidelines": false,
+  "NotesForCertification": "",
+  "Status": "Published",
+  "StatusDetails": {
+    "Errors": [],
+    "Warnings": [
+      {
+        "Code": "SalesUnsupportedWarning",
+        "Details": "The sales resource is no longer supported. To view or edit the sales data for this submission, use the Dev Center dashboard."
+      }
+    ],
+    "CertificationReports": []
+  },
+  "FileUploadUrl": null,
+  "ApplicationPackages": [
+    {
+      "FileName": "pkota.FitnessFuel_1.0.2.0_x86__4fxr7wcjkzrjg_1.msix",
+      "FileStatus": "Uploaded",
+      "Id": "2000000000086830858",
+      "Version": "1.0.2.0",
+      "Architecture": "neutral",
+      "Languages": [
+        "en-US"
+      ],
+      "Capabilities": [
+        "runFullTrust"
+      ],
+      "MinimumDirectXVersion": "None",
+      "MinimumSystemRam": "None"
+    }
+  ],
+  "PackageDeliveryOptions": {
+    "PackageRollout": {
+      "IsPackageRollout": false,
+      "PackageRolloutPercentage": 0,
+      "PackageRolloutStatus": "PackageRolloutNotStarted",
+      "FallbackSubmissionId": "0"
+    },
+    "IsMandatoryUpdate": false,
+    "MandatoryUpdateEffectiveDate": "1601-01-01T00:00:00Z"
+  },
+  "EnterpriseLicensing": "None",
+  "AllowMicrosoftDecideAppAvailabilityToFutureDeviceFamilies": true,
+  "AllowTargetFutureDeviceFamilies": {
+    "Desktop": true,
+    "Mobile": false,
+    "Xbox": false,
+    "Team": false,
+    "Holographic": true
+  },
+  "FriendlyName": "Submission 8",
+  "Trailers": []
+}

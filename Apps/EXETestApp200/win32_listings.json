@@ -1,0 +1,35 @@
+{
+  "Listings": [
+    {
+      "Language": "en-us",
+      "Description": "EXETestApp200 - Updated description with new features and improvements",
+      "WhatsNew": "EXETestApp200 - Latest updates include bug fixes and performance enhancements",
+      "ProductFeatures": [
+        "Enhanced performance",
+        "Improved user interface",
+        "Bug fixes",
+        "New integrations"
+      ],
+      "ShortDescription": "EXETestApp200 - Enhanced app with better performance",
+      "SearchTerms": [
+        "EXETestApp",
+        "developer",
+        "tools",
+        "performance",
+        "test"
+      ],
+      "AdditionalLicenseTerms": "EXETestApp200 - license terms",
+      "Copyright": "EXETestApp200 - copyright 2025",
+      "DevelopedBy": "Microsoft Test Team",
+      "Requirements": [
+        {
+          "MinimumRequirement": null,
+          "RecommendedRequirement": null,
+          "HardwareItemType": null
+        }
+      ],
+      "SortTitle": null,
+      "ContactInfo": null
+    }
+  ]
+}

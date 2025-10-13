@@ -1,0 +1,13 @@
+{
+  "Availability": {
+    "Markets": [
+      "US",
+      "GB",
+	  "FR"
+    ],
+    "Discoverability": "DISCOVERABLE",
+    "EnableInFutureMarkets": false,
+    "Pricing": "FREE",
+    "FreeTrial": "NO_FREE_TRIAL"
+  }
+}

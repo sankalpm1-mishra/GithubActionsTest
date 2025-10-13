@@ -1,0 +1,56 @@
+{
+  "Packages": [
+    {
+      "PackageUrl": "https://download.microsoft.com/download/a/b/9/ab92b51f-92ea-4d46-9d21-9446bd20eed8/Update/BWCI/MSStore/2.0.1.1/BWCStartMSI.exe",
+      "Languages": [
+        "en", "ja","fr"
+      ],
+      "Architectures": [
+        "X86"
+      ],
+      "InstallerParameters": "/s",
+      "IsSilentInstall": false,
+      "GenericDocUrl": "http://docs.contoso.com/doclink",
+      "ErrorDetails": [
+        {
+          "ErrorScenario": "installationCancelledByUser",
+          "ErrorScenarioDetails": []
+        },
+        {
+          "ErrorScenario": "applicationAlreadyExists",
+          "ErrorScenarioDetails": []
+        },
+        {
+          "ErrorScenario": "installationAlreadyInProgress",
+          "ErrorScenarioDetails": []
+        },
+        {
+          "ErrorScenario": "diskSpaceIsFull",
+          "ErrorScenarioDetails": []
+        },
+        {
+          "ErrorScenario": "rebootRequired",
+          "ErrorScenarioDetails": []
+        },
+        {
+          "ErrorScenario": "networkFailure",
+          "ErrorScenarioDetails": []
+        },
+        {
+          "ErrorScenario": "packageRejectedDuringInstallation",
+          "ErrorScenarioDetails": []
+        },
+        {
+          "ErrorScenario": "installationSuccessful",
+          "ErrorScenarioDetails": []
+        },
+        {
+          "ErrorScenario": "miscellaneous",
+          "ErrorScenarioDetails": []
+        }
+      ],
+      "PackageType": "exe",
+      "PackageId": "94375341"
+    }
+  ]
+}

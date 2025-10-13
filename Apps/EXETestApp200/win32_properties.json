@@ -1,0 +1,90 @@
+{
+  "Properties": {
+    "IsPrivacyPolicyRequired": true,
+    "PrivacyPolicyUrl": "https://www.acronis.com/en-us/company/privacy/",
+    "WebSite": "https://www.microsoft.com/",
+    "SupportContactInfo": "https://support.microsoft.com/",
+    "CertificationNotes": "Proprietary",
+    "Category": "DeveloperTools",
+    "SubCategory": "",
+    "ProductDeclarations": {
+      "DependsOnDriversOrNT": false,
+      "AccessibilitySupport": false,
+      "PenAndInkSupport": false
+    },
+    "IsSystemFeatureRequired": [
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "Touch"
+      },
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "Keyboard"
+      },
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "Mouse"
+      },
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "Camera"
+      },
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "NFC_HCE"
+      },
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "NFC_Proximity"
+      },
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "Bluetooth_LE"
+      },
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "Telephony"
+      },
+      {
+        "IsRequired": false,
+        "IsRecommended": false,
+        "HardwareItemType": "Microphone"
+      }
+    ],
+    "SystemRequirementDetails": [
+      {
+        "MinimumRequirement": "8GB",
+        "RecommendedRequirement": "16GB",
+        "HardwareItemType": "Memory"
+      },
+      {
+        "MinimumRequirement": "",
+        "RecommendedRequirement": "",
+        "HardwareItemType": "DirectX"
+      },
+      {
+        "MinimumRequirement": "",
+        "RecommendedRequirement": "",
+        "HardwareItemType": "Video_Memory"
+      },
+      {
+        "MinimumRequirement": "",
+        "RecommendedRequirement": "",
+        "HardwareItemType": "Processor"
+      },
+      {
+        "MinimumRequirement": "",
+        "RecommendedRequirement": "",
+        "HardwareItemType": "Graphics"
+      }
+    ]
+  }
+}

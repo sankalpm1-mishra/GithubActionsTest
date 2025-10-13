@@ -1,0 +1,11 @@
+{
+  "Availability": {
+    "Markets": [
+      "AQ"
+    ],
+    "Discoverability": "DEEPLINK_ONLY",
+    "EnableInFutureMarkets": false,
+    "Pricing": "FREE",
+    "FreeTrial": "NO_FREE_TRIAL"
+  }
+}

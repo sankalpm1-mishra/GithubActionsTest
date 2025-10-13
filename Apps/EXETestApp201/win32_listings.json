@@ -1,0 +1,30 @@
+{
+  "Listings": [
+    {
+      "Language": "en-us",
+      "Description": "EXeTestApp201 - desc",
+      "WhatsNew": "EXeTestApp201 - whats new",
+      "ProductFeatures": [
+        "test1",
+        "test2"
+      ],
+      "ShortDescription": "EXeTestApp201 - short desc",
+      "SearchTerms": [
+        "keyword1",
+        "keyword2"
+      ],
+      "AdditionalLicenseTerms": "EXeTestApp201 - license terms",
+      "Copyright": "EXETestApp200 - copyright",
+      "DevelopedBy": "testuser",
+      "Requirements": [
+        {
+          "MinimumRequirement": null,
+          "RecommendedRequirement": null,
+          "HardwareItemType": null
+        }
+      ],
+      "SortTitle": null,
+      "ContactInfo": null
+    }
+  ]
+}

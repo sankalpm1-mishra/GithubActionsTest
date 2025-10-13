@@ -1,0 +1,27 @@
+{
+  "Listings": 
+    {
+      "Language": "en",
+      "Description": "Test Listing Update from GitHub3",
+      "WhatsNew": "Test Listing Update from GitHub",
+      "ProductFeatures": ["Test Listing Update from GitHub"],
+      "ShortDescription": "Test Listing Update from GitHub",
+      "SearchTerms": [
+        "CyberProtectHomeOffice",
+        "Acronis",
+        "cyber protect"
+      ],
+      "AdditionalLicenseTerms": "Proprietary",
+      "Copyright": "Test Listing Update from GitHub",
+      "DevelopedBy": "Test Listing Update from GitHub",
+      "Requirements": [
+        {
+          "MinimumRequirement": null,
+          "RecommendedRequirement": null,
+          "HardwareItemType": null
+        }
+      ],
+      "SortTitle": "Test Listing Update from GitHub",
+      "ContactInfo": "Test Listing Update from GitHub"
+    }
+}
