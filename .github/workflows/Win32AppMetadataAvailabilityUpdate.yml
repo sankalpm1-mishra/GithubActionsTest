@@ -11,5 +11,5 @@ jobs:
     - name: Update Metadata and Publish
       shell: pwsh
       run: |
-          $availabilities = Get-Content -Raw "${{ github.workspace }}/Apps/<productName>/win32_availability.json"
-          msstore submission updateMetadata <productId> $availabilities
+          $availabilities = Get-Content -Raw "${{ github.workspace }}/Apps/Acronics/win32_availability.json"
+          msstore submission updateMetadata <28d4b502-6be7-414d-950d-680de94a32bb> $availabilities
