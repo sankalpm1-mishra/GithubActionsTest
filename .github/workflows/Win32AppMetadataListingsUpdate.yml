@@ -11,6 +11,6 @@ jobs:
     - name: Update Metadata and Publish
       shell: pwsh
       run: |
-          $listings = Get-Content -Raw "${{ github.workspace }}/Apps/<Acronics>/win32_listings.json"
-          msstore submission updateMetadata <28d4b502-6be7-414d-950d-680de94a32bb> $listings
+          $listings = Get-Content -Raw "${{ github.workspace }}/Apps/Acronics/win32_listings.json"
+          msstore submission updateMetadata 28d4b502-6be7-414d-950d-680de94a32bb $listings
           
