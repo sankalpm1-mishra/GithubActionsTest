@@ -2,7 +2,6 @@
   "Availability": {
     "Markets": [
       "US",
-      "GB",
 	  "FR"
     ],
     "Discoverability": "DISCOVERABLE",
@@ -10,4 +9,5 @@
     "Pricing": "FREE",
     "FreeTrial": "NO_FREE_TRIAL"
   }
+
 }
