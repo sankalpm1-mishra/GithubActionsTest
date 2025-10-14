@@ -2,18 +2,18 @@
   "Listings": 
     {
       "Language": "en",
-      "Description": "Test Listing Update from GitHub3",
-      "WhatsNew": "Test Listing Update from GitHub",
-      "ProductFeatures": ["Test Listing Update from GitHub"],
-      "ShortDescription": "Test Listing Update from GitHub",
+      "Description": "Test Listing Update for GitHub Actions",
+      "WhatsNew": "Test Listing Update for GitHub Actions",
+      "ProductFeatures": ["Test Listing Update for GitHub Actions"],
+      "ShortDescription": "Test Listing Update for GitHub Actions",
       "SearchTerms": [
-        "CyberProtectHomeOffice",
+        "Cyberprotecthomeoffice",
         "Acronis",
-        "cyber protect"
+        "Cyber Protect"
       ],
-      "AdditionalLicenseTerms": "Proprietary",
-      "Copyright": "Test Listing Update from GitHub",
-      "DevelopedBy": "Test Listing Update from GitHub",
+      "AdditionalLicenseTerms": "Proprietary policy",
+      "Copyright": "Test Listing Update for GitHub Actions",
+      "DevelopedBy": "Test Listing Update for GitHub Actions",
       "Requirements": [
         {
           "MinimumRequirement": null,
