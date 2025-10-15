@@ -259,11 +259,11 @@
           "keyword1",
           "keyword2"
         ],
-        "Description": "MSTestApp201 - desc",
+        "Description": "MSTestApp201 - description",
         "Features": [
           "TestFeature1"
         ],
-        "ReleaseNotes": "MSTestApp201 - whats new",
+        "ReleaseNotes": "MSTestApp201 - whats new in this version",
         "Images": [
           {
             "FileName": "Screenshot_CLI.png",
@@ -357,4 +357,5 @@
   },
   "FriendlyName": "Submission 1",
   "Trailers": []
+
 }
