@@ -1,4 +1,4 @@
-name: Win32AppMetadataPropertiesUpdate
+name: AppMetadataUpdate
 on:   
       workflow_dispatch:
 jobs:
@@ -11,5 +11,7 @@ jobs:
     - name: Update Metadata and Publish
       shell: pwsh
       run: |
-          $properties = Get-Content -Raw "${{ github.workspace }}/Apps/<productName>/win32_properties.json"
-          msstore submission updateMetadata <productId> $properties
+          $metadata = Get-Content -Raw "${{ github.workspace }}/<productName>/metadata.json"
+          msstore submission updateMetadata <Store productId> $metadata
+          msstore submission publish <Store productId> 
+ 
